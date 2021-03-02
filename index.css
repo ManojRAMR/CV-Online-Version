@@ -1,0 +1,75 @@
+:root {
+  --color-pri: #2d5f2e;
+  --color-accent: #d5e4c0;
+  --color-light: #eaf1df;
+  --color-bg: #efefe5;
+}
+* {
+  color: var(--color-pri);
+  //   background: rgb(228, 207, 192);
+}
+
+.bg__section_accent {
+  background: var(--color-accent);
+}
+.bg__section_light {
+  background: var(--color-light);
+}
+
+.about__title,
+.education__title,
+.experience__title,
+.skills__title,
+.foi__title {
+  background: var(--color-bg);
+  color: var(--color-pri);
+}
+.disc {
+  font-weight: 500;
+}
+
+/* header */
+.header__titles {
+  background: var(--color-pri);
+}
+.header__title {
+  color: var(--color-light);
+}
+.header__subtitle {
+  color: var(--color-light);
+  opacity: 70%;
+}
+.header__contents {
+  background: var(--color-bg);
+}
+ul.header__content {
+  display: inline-block;
+}
+.hdeader__content-icon {
+  margin-right: 1rem;
+}
+/* about */
+
+/* education */
+
+/* Experience */
+
+.job__period {
+}
+
+/* skills & fields of interest */
+.foi_list,
+.skills__list {
+  list-style: none;
+}
+
+.skill__item,
+.foi__item {
+  padding: 0.5rem 1rem;
+  background: var(--color-pri);
+  color: var(--color-light);
+  width: fit-content;
+  margin: 0.3rem;
+  display: inline-block;
+  border-radius: 5px;
+}

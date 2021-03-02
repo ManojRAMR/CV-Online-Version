@@ -1,0 +1,117 @@
+{
+    "about":{
+            "name":{
+                "fname":"Manoj",
+                "mname":"Rasanjaya",
+                "lname":"Randeni"
+            },
+            "dob":"01 August 1992", 
+            "nic":"922140960V",
+            "nationality":"Sri Lankan",
+            "address":"Danwella, Mahawela, Uhumeeya, Kurunegala",
+            "mobile":"+94 77 406 4231",
+            "email":"randeni.ramr@gmail.com",
+            "linkedin":"linkedin.com/in/manojrandeni",
+            "bio":["I am a dedicated, and open-minded graduate of Department of Mechanical Engineering, University of Moratuwa who has worked in a plastic product manufacturing company as a Mold Development Engineer. After working there for a few months, I realized that I was much more passionate for my side hustle as a web developer rather than a mold development engineer. The idea was strong enough for me to switch my career pursue from a mechanical engineer to be a web developer. I do believe this decision would bring the best in me.","Currently, I am working in a Swedish-American startup as a web developer on contract basis. My current stack is HTML5, CSS3, JavaScript, PHP, & MySQL. Also, currently learning React and intend to learn React Native soon. My focus is building a career as a full stack developer while being up-to-date with new technologies."]
+    },
+    "education":[
+        {
+            "school_name":"University of Moratuwa",
+            "start":2014,
+            "end":2018,
+            "degree":"B.Sc. Eng. (Hons.) in Mechanical Engineering",
+            "disc":"B.Sc. Engineering (Hons) in Mechanical Engineering; 3.11 of 4.0 GPA in field. Related studies in Linear Algebra, Multivariate Calculus, Applied Statistics Probability, Business Economics and Finance, Operations Management.",
+            "exams":[],
+            "courses":["Object-Oriented Programming Using C++ (CS2882)","Programming Fundamentals (CS1032)","Advanced Automation Systems (ME4492)","Automation Systems (ME4462)","Control Systems & Instrumentation (ME3012)"]
+        },
+        {
+            "school_name":"Maliyadeva College",
+            "start":2002,
+            "end":2011,
+            "degree":"",
+            "disc":"",
+            "exams":[{
+                "exam":"G.C.E. (A/L)",
+                "year":2013,
+                "results":"2A's, 1B"
+            },
+            {
+                "exam":"G.C.E. (O/L)",
+                "year":2008,
+                "results":"5A's, 2B, 1C"
+            }],
+            "courses":[]
+        }
+    ],
+    "experience":[
+        {
+            "company":"Peaceyard LLC",
+            "designation":"Web Developer",
+            "job_type":"Contractor",
+            "start":"Nov 2019",
+            "end":"Present",
+            "disc":"As web developer on contract of the company, I am requested to work on on-demand web development projects for the company main website and many other sub websites. These projects could be adding new features to the sites, plugin development and modifications, bug fixing, etc.… I am expected to be self-directed and work on my own initiative for these projects.",
+            "tasks":[]
+        },
+        {
+            "company":"",
+            "designation":"Web Developer",
+            "job_type":"Self-employed",
+            "start":"June 2019",
+            "end":"Nov 2019",
+            "disc":"",
+            "tasks":["Provided on-demand technical support for small-scale business owners to maintenance and fix issues of their websites.","Maintenance of WordPress websites."]
+        },
+        {
+            "company":"Phoenix Industries Limited",
+            "designation":"Mold Development Engineer",
+            "job_type":"Full-time",
+            "start":"Feb 2019",
+            "end":"June 2019",
+            "disc":"Responsible for plastic injection and blow mold development project handling, concept development and designing of plastic consumer goods and packages.",
+            "tasks":["Cooperate with interdisciplinary teams that included both technical and non-technical disciplines.","Developed, coordinated and monitored all aspects of plastic injection molding projects, including selection of manufacturing methods, fabrications and operation of product designs.","Oversaw product design proposals, specification and other data to evaluate the feasibility, cost and maintenance requirements of designs and applications before project initiation.","Communicated with project manager, oversea mold manufactures and suppliers, and other relevant stakeholders to coordinate multiple projects.","Took advantage of various CAD software including Vero Visi, SolidWorks to communicate designs concepts with technical teams."]
+        },
+        {
+            "company":"CAMSO Loadstar (PVT.) LTD Kotugoda Tire Division",
+            "designation":"Mechanical Engineering Intern",
+            "job_type":"Trainee",
+            "start":"June 2017",
+            "end":"Nov 2017",
+            "disc":"",
+            "tasks":["As an intern of the company I had engaged in ongoing maintenance and automation engineering projects.","Carried out a conceptual project to improve solid tire manufacturing process of the plant."]
+        },
+        {
+            "company":"Fiverr",
+            "designation":"Web Developer",
+            "job_type":"Self-employed",
+            "start":"Feb 2015",
+            "end":"May 2019",
+            "disc":"",
+            "tasks":["Responsible for design and development of WordPress websites of various small-scale businesses.","Communicate with clients to understand their needs and wants.","Maintenance  of WordPress websites."]
+        }
+    ],
+    "skills":["HTML5","CSS3","JavaScript ES6+","jQuery","BootStrap","SASS","PHP","Python","MySQL","Node.js","MongoDB","WordPress Development","GIT","Adobe XD","Adobe Illustrator","SolidWorks","Blender","KeyShot"],
+    "foi":["Web Design & Development","3D CAD Modeling & Visualization","Die - Mold Design & Development","Automation Engineering","Mechanical Engineering"],
+    "referees":[
+        {
+            "name":"Robert Krzykawski",
+            "designation":"Manager, Database Reliability Engineering & Network Reliability Engineering",
+            "company":"Marketo/Adobe",
+            "address":"San Francisco, California, United States",
+            "phone":"+1 415-269-3870",
+            "mobile":"",
+            "email":"krzykawski@gmail.com",
+            "linkedin":"krzykawski@gmail.com"
+        },
+        {
+            "name":"DR. H.K.G. Punchihewa",
+            "designation":"Head of the Department",
+            "company":"Department of Mechanical Engineering",
+            "address":"University of Moratuwa, Faculty of Engineering, Sri Lanka",
+            "phone":"+94 011 2640 475",
+            "mobile":"+94 071 622 0236",
+            "email":"hkgpunchihewa@gmail.com",
+            "linkedin":""
+        }
+    ]
+}
