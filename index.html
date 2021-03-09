@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
+  <body id="home">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container">
         <a class="navbar-brand h1" href="#">Online CV of MRR</a>
@@ -46,7 +46,7 @@
       </div>
     </nav>
     <!-- header  -->
-    <header id="home">
+    <header>
       <div class="container">
         <div class="row header">
           <!-- profile picture  -->
@@ -111,7 +111,10 @@
                         <i class="bi bi-github"></i
                       ></a>
                     </li>
-                    <li class="header__content-social list-inline-item">
+                    <li
+                      class="header__content-social list-inline-item"
+                      id="about"
+                    >
                       <a href="https://wa.me/94715190114" target="_blank">
                         <i class="bi bi-whatsapp"></i
                       ></a>
@@ -127,7 +130,7 @@
     <main>
       <div class="container">
         <!-- about -->
-        <div class="row about my-3 gx-3 section" id="about">
+        <div class="row about my-3 gx-3 section">
           <div class="col-lg-3">
             <div class="about__title h-100 p-4">
               <h3>About me</h3>
@@ -153,14 +156,16 @@
                 intend to learn React Native soon. My focus is building a career
                 as a full stack developer while being up-to-date with new
                 technologies.
+                <div id="education"></div>
               </p>
             </div>
           </div>
         </div>
+
         <!-- bio -->
 
         <!-- education -->
-        <div class="row education my-3 gx-3" id="education">
+        <div class="row education my-3 gx-3">
           <div class="col-lg-3">
             <div class="education__title h-100 p-4">
               <h3>Education</h3>
@@ -209,7 +214,7 @@
                       Advanced Automation Systems (ME4492)
                     </li>
                     <li class="disc__list-item">Automation Systems (ME4462)</li>
-                    <li class="disc__list-item">
+                    <li class="disc__list-item" id="experience">
                       Control Systems & Instrumentation (ME3012)
                     </li>
                   </ul>
@@ -220,7 +225,7 @@
         </div>
 
         <!-- experience -->
-        <div class="row experience my-3 gx-3" id="experience">
+        <div class="row experience my-3 gx-3">
           <div class="col-lg-3">
             <div class="experience__title p-4 h-100">
               <h3>Experience</h3>
