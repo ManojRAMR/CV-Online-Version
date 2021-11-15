@@ -5,6 +5,8 @@
   --color-bg: #efefe5;
 }
 * {
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 3.75em;
   color: var(--color-pri);
   //   background: rgb(228, 207, 192);
 }

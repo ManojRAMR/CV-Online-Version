@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MRR Online CV</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -37,9 +38,9 @@
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
             <a class="nav-link" href="#about">About</a>
             <!-- <a class="nav-link" href="#bio">Bio</a> -->
-            <a class="nav-link" href="#education">Education</a>
             <a class="nav-link" href="#experience">Experience</a>
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#TechStack">TechStack</a>
+            <a class="nav-link" href="#education">Education</a>
             <a class="nav-link" href="#foi">FoI</a>
           </div>
         </div>
@@ -98,7 +99,9 @@
                   </p>
 
                   <!-- social links -->
-                  <ul class="header__content mt-3 mb-0 list-inline">
+                  
+                   
+                  <ul    class="header__content mt-3 mb-0 list-inline" >
                     <li class="header__content-social list-inline-item">
                       <a
                         href="https://www.linkedin.com/in/manojrandeni"
@@ -113,7 +116,6 @@
                     </li>
                     <li
                       class="header__content-social list-inline-item"
-                      id="about"
                     >
                       <a href="https://wa.me/94715190114" target="_blank">
                         <i class="bi bi-whatsapp"></i
@@ -127,10 +129,11 @@
         </div>
       </div>
     </header>
-    <main>
+    <main >
       <div class="container">
         <!-- about -->
-        <div class="row about my-3 gx-3 section">
+        
+        <div id="about"  class="row about my-3 gx-3 section">
           <div class="col-lg-3">
             <div class="about__title h-100 p-4">
               <h3>About me</h3>
@@ -147,7 +150,7 @@
                 JavaScript, Java SE, & MySQL. My focus is building a career
                 as a full stack developer while being up-to-date with new
                 technologies.
-                <div id="education"></div>
+                <div ></div>
               </p>
             </div>
           </div>
@@ -158,7 +161,7 @@
 
 
         <!-- experience -->
-        <div class="row experience my-3 gx-3">
+        <div id="experience" class="row experience my-3 gx-3">
           <div class="col-lg-3">
             <div class="experience__title p-4 h-100">
               <h3>Experience</h3>
@@ -358,33 +361,118 @@
             </div>
           </div>
         </div>
-        <!-- skills -->
-        <div class="row skills gx-3 my-3" id="skills">
+        <!-- TechStack   -->
+        <div class="row skills gx-3 my-3" id="TechStack">
           <div class="col-lg-3">
             <div class="skills__title p-4 h-100">
-              <h3>Skills</h3>
+              <h3>TechStack</h3>
             </div>
           </div>
+
           <div class="col-lg-9">
-            <div class="bg__section_light p-4">
+            <div class="bg__section_light p-4 mb-lg-3">
+              <div class="row">
+                <div class="col">
+                  <p class="skill_section_title h5  mb-0">
+                    Programming Languages
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <ul class="skills__list mb-0 p-0 ">
+                <li class="skill__item">Java SE && Java EE</li>
+                <li class="skill__item">JavaScript ES6+</li>
+                <li class="skill__item">TypeScript</li>
+              </ul>
+            </div>
+
+            <div class="bg__section_accent p-4 mb-lg-3">
+              <div class="row">
+                <div class="col">
+                  <p class="skill_section_title h5  mb-0">
+                    Frontend & Backend Development
+                  </p>
+                </div>
+              </div>
+              <hr />
               <ul class="skills__list mb-0 p-0">
+                <li class="skill__item">Angular</li>
+                <li class="skill__item">React</li>
+                <li class="skill__item">jQuery</li>
+                <li class="skill__item">Axios</li>
+                <li class="skill__item">BootStrap</li>
+                <li class="skill__item">Spring</li>
+                <li class="skill__item">Node.js</li>
+                <li class="skill__item">SCSS</li>
                 <li class="skill__item">HTML5</li>
                 <li class="skill__item">CSS3</li>
-                <li class="skill__item">JavaScript ES6+</li>
-                <li class="skill__item">jQuery</li>
-                <li class="skill__item">BootStrap</li>
-                <li class="skill__item">SASS</li>
-                <li class="skill__item">Java SE</li>
-                <li class="skill__item">PHP</li>
-                <li class="skill__item">Python</li>
+              </ul>
+            </div>
+
+            <div class="bg__section_light p-4 mb-lg-3">
+              <div class="row">
+              <div class="col">
+                <p class="skill_section_title h5  mb-0">
+                  Mobile App Development
+                </p>
+              </div>
+            </div>
+            <hr />
+              <ul class="skills__list mb-0 p-0">
+                <li class="skill__item">React Native</li>
+              </ul>
+            </div> 
+
+            <div class="bg__section_accent p-4 mb-lg-3">
+              <div class="row">
+              <div class="col">
+                <p class="skill_section_title h5  mb-0">
+                  Database
+                </p>
+              </div>
+            </div>
+            <hr />
+              <ul class="skills__list mb-0 p-0">
                 <li class="skill__item">MySQL</li>
-                <li class="skill__item">Node.js</li>
-                <li class="skill__item">MongoDB</li>
-                <li class="skill__item">WordPress Development</li>
-                <li class="skill__item">GIT</li>
+                <li class="skill__item">Redis</li>
+                <li class="skill__item">SQLite</li>
+              </ul>
+            </div> 
+            
+            <div class="bg__section_light p-4 mb-lg-3">
+              <div class="row">
+              <div class="col">
+                <p class="skill_section_title h5  mb-0">
+                  Testing
+                </p>
+              </div>
+            </div>
+            <hr />
+              <ul class="skills__list mb-0 p-0">
+                <li class="skill__item">JUnit</li>
+              </ul>
+            </div> 
+            
+            <div class="bg__section_accent p-4 mb-lg-3">
+              <div class="row">
+              <div class="col">
+                <p class="skill_section_title h5  mb-0">
+                  Other Tech and Software 
+                </p>
+              </div>
+            </div>
+            <hr />
+              <ul class="skills__list mb-0 p-0">
+                <li class="skill__item">Linux</li>
+                <li class="skill__item">Git</li>
                 <li class="skill__item">Figma</li>
                 <li class="skill__item">Adobe XD</li>
+                <li class="skill__item">Postman</li>
+                <li class="skill__item">WordPress</li>
+
                 <li class="skill__item">Adobe Illustrator</li>
+                <li class="skill__item">Adobe Photoshop</li>
+
                 <li class="skill__item">SolidWorks</li>
                 <li class="skill__item">Blender</li>
                 <li class="skill__item">KeyShot</li>
@@ -393,7 +481,7 @@
           </div>
         </div>
         <!-- education -->
-        <div class="row education my-3 gx-3">
+        <div id="education" class="row education my-3 gx-3">
           <div class="col-lg-3">
             <div class="education__title h-100 p-4">
               <h3>Education</h3>
@@ -442,7 +530,7 @@
                       Advanced Automation Systems (ME4492)
                     </li>
                     <li class="disc__list-item">Automation Systems (ME4462)</li>
-                    <li class="disc__list-item" id="experience">
+                    <li class="disc__list-item" >
                       Control Systems & Instrumentation (ME3012)
                     </li>
                   </ul>
