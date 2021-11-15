@@ -60,15 +60,24 @@ ul.header__content {
 .foi_list,
 .skills__list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skill__item,
 .foi__item {
   padding: 0.5rem 1rem;
-  background: var(--color-pri);
-  color: var(--color-light);
+  background: var(--color-light);
+  color: var(--color-pri);
+  border: var(--color-pri) 2px solid;
   width: fit-content;
   margin: 0.3rem;
-  display: inline-block;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.white-bg {
+  background-color: white;
 }
