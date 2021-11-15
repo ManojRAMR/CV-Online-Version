@@ -67,7 +67,7 @@ ul.header__content {
 .skill__item,
 .foi__item {
   padding: 0.5rem 1rem;
-  background: var(--color-light);
+  background: white;
   color: var(--color-pri);
   border: var(--color-pri) 2px solid;
   width: fit-content;
