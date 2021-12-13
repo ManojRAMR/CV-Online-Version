@@ -81,3 +81,7 @@ ul.header__content {
 .white-bg {
   background-color: white;
 }
+
+#TechStack hr {
+  margin: 0.5em;
+}
